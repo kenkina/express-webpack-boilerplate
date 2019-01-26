@@ -1,6 +1,6 @@
 # Express Webpack Boilerplate
 
-A boilerplate for express using webpack and babel.
+A boilerplate for express using webpack and babel
 
 
 ## Scripts
@@ -10,22 +10,22 @@ Install dependencies
 npm i
 ```
 
-Starts webpack with watch mode and serves build/index.js with NodemonPlugin at [http://localhost:3000]
+Start webpack with _watch mode_ and serve _build/index.js_ with [NodemonPlugin](https://github.com/Izhaki/nodemon-webpack-plugin) at [http://localhost:3000](http://localhost:3000)
 ```
 npm start
 ```
 
-Serves build/index.js with nodemon at [http://localhost:3000]
+Serve _build/index.js_ with nodemon at [http://localhost:3000](http://localhost:3000)
 ```
 npm run start-dev
 ```
 
-Starts webpack and use UglifyJsPlugin for minification
+Start webpack and use [UglifyJsPlugin](https://github.com/webpack-contrib/uglifyjs-webpack-plugin) for minification
 ```
 npm run build-prod
 ```
 
-Serves dist/index.js with node at [http://localhost:3000]
+Serve _dist/index.js_ with node at [http://localhost:3000](http://localhost:3000)
 ```
 node dist/index.js
 ```
