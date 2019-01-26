@@ -1,4 +1,4 @@
 {
   "presets": ["@babel/preset-env"]
 }
-// Allows babel to understand ES6 with stage-2 features enabled, and transform them to the proper javascript target for the node environment
+// ES6 with stage-2 features enabled
